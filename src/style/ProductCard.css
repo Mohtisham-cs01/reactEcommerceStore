@@ -1,0 +1,44 @@
+/* Shop.css */
+
+/* Styling for ProductCard */
+.product-card {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  margin-bottom: 20px;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card .card-title {
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.product-card .card-price {
+  font-size: 1.2rem;
+  color: #00c853;
+  font-weight: bold;
+}
+
+.product-card .card-text {
+  color: #666;
+}
+
+.product-card .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.product-card .btn-primary:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+.hidden {
+  display: none;
+}

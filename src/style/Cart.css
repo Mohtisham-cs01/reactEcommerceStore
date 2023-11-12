@@ -1,0 +1,61 @@
+/* Cart.css */
+
+.cart-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cart-table th, .cart-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .cart-table th {
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 100%;
+  }
+
+  @media screen and (max-width: 767px) {
+    .cart-table th {
+      font-size: 70%;
+    }
+  }
+  
+  .cart-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .cart-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .action-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .total {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .empty-cart-message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    padding: 20px;
+  }
+  /* You can further customize these styles to match your design preferences. */
+  .cart-total{
+    font-size: 2rem;
+  }

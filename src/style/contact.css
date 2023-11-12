@@ -1,0 +1,67 @@
+/* ContactForm.css */
+.contact-form-section {
+    background-color: #f8f8f8;
+    padding: 50px 0;
+  }
+  
+  .heading-section {
+    color: #333;
+    font-size: 30px;
+  }
+  
+  .contact-box {
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff; /* Icon color */
+  }
+  
+  .text {
+    font-size: 16px;
+    color: #555; /* Text color */
+  }
+  
+  .contact-wrap {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 40px;
+    border-radius: 5px;
+  }
+  
+  .label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Label color */
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  /* Customize the styles as needed */
+  
