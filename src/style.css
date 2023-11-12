@@ -1,0 +1,141 @@
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  li {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin :auto 0; /* Add spacing between todo items */
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Rest of your CSS styles... */
+  
+
+/* App container styles */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  /* Input and button styles */
+  #form ,form {
+    display: flex;
+    width: 100%;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .add-button,
+  .update-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #0077b6;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover,
+  .update-button:hover {
+    background-color: #005b9f;
+  }
+  
+  /* Todo list styles */
+  .todo-list {
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  li {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin:auto 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .forms{
+    margin: 2px ;
+  }
+
+  .delete-button,
+  .update-button {
+    padding: 8px 12px;
+    font-size: 14px;
+    background-color: #e63946;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .delete-button:hover,
+  .update-button:hover {
+    background-color: #c83a45;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    input {
+      font-size: 14px;
+    }
+  
+    .add-button,
+    .update-button {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  
+    li {
+      font-size: 14px;
+      padding: 8px;
+    }
+  
+    .delete-button,
+    .update-button {
+      font-size: 12px;
+      padding: 6px 10px;
+      margin-left: 5px;
+    }
+  }
+  
+  /* clear button */
+.clear-button {
+    background-color: #e63946;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .clear-button:hover {
+    background-color: #c83a45;
+  }
+  
